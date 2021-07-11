@@ -30,7 +30,13 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-pubsub</artifactId>
-        </dependency>
+           <exclusions>
+	     <exclusion>
+       	      <groupId>com.google.guava</groupId>
+	      <artifactId>guava-jre</artifactId>
+	      </exclusion>
+           </exclusions>
+     </dependency>
        
     </dependencies>
 </project>
