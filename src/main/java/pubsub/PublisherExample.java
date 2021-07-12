@@ -23,6 +23,7 @@ public class PublisherExample {
         String topicId = "airlines";
 
         publisherExample(projectId, topicId, argv[0]);
+        System.out.println("Done and dusted");
     }
 
     public static void publisherExample(String projectId, String topicId,String argv)
